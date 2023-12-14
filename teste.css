@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #868282;
+}
+header .cabecalho {
+    margin: 0;
+
+}
+header img{
+    width: 100%;
+    height: 40vh;
+}
+
+.menu {
+    background-color: #19afa88e;
+    height: 8vh;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.menu ul li{
+    padding: 8px;
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background-color: #d4d4d4;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: rgb(175, 175, 175);
+}
+
+.menu ul li{
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.content h1, p{
+    padding: 20px;
+}
+.content h2, p{
+    padding: 20px;
+}
+
+
+.table-atd {
+    margin-left: 25vw;
+}
+.tableHors {
+    border: 1px solid;   
+}
+.tableHors thead {
+    background-color: black;
+    color: #f1f1f1;
+}
+
+.tableHors tbody tr td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.tableHors tbody:nth-child(even) td {
+    background-color: rgb(172, 179, 176);
+}
+
+.localizacao {
+    text-align: center;
+    margin: 10px;
+}
+.localizacao iframe {
+    box-shadow: 1px 0 5px 2px rgba(0, 0, 0, .8);
+    margin-left: 15vw;
+}
+
+div.infoClinic{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+div.adress {
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    margin: 10px 0 0 80px;
+}
+.tb-adress {
+    padding: 50px;
+    margin-right: 50px;
+}
+div.formSuporte {
+    position: relative;
+    left: 25vw;
+}
+div .form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 3vw;
+}
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: #d4d4d4;
+    width: 100%;
+    min-height: 120px;
+}
+footer .contatos {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+footer ul li{
+    margin-top: 10px;
+    list-style: none;
+}
